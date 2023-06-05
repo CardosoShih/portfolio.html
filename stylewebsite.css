@@ -1,20 +1,100 @@
+h1 {
+   font-family: 'pacifico',cursive;
+   text-align: center;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+   }
 
 
+ h3 {
+   color:rgb(255, 255, 255);
+   text-align: center;
+ }
+
+ h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Wix Madefor Display', sans-serif;
+   }
+
+
+.menu {
+    padding: 10px;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      gap: 20px;
+      flex-direction: row-reverse;
+}
+
+.menu > a {
+    color: #e7d972cc;
+} 
+
+* {
+   color: chartreuse;
+}
 img {
-    height: 250px;
-    width: 230px;
+   position: inherit;
+    height: 80%;
+    width: 90%;
      
  }
- 
- * {
-    color:white
+
+ body {
+   background-image:url(bick.JPG) ;
+   background-size: 642px;
+   background-repeat: repeat;
+    width: 2000;
+    width: 100%;
+    height: 100px;
+    height:100%
+    margin: 0;
+    background-size: cover;
+    padding-bottom: 50px;
  }
+ 
+ 
+ #meme {
+    height: 300px;
+   width: 250px;
+   float:inline-end;
+ }
+
+.projects {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   grid-template-rows: 500px 500px 500px;
+   gap: 30px;
+}
+
+
+.li{
+   grid-column: span2px;
+}
+
+.projects a:nth-child(1) {
+   color: antiquewhite;
+}
+
+
+.projects a:nth-child(2) {
+   color: antiquewhite;
+}
+
+
+
+
+/*fontes*/
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&family=Merriweather:ital,wght@1,300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap" rel="stylesheet">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
